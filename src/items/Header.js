@@ -9,7 +9,7 @@ class Header extends Component{
         return(
             <header className="header-wrapper">
                 <div className="header">
-                    <h1>React SPA</h1>
+                    <h1><a href="#home">React SPA</a></h1>
                 </div>
                 <Menu />
             </header>

@@ -5,7 +5,7 @@ class Form extends Component{
     render(){
         return(
             <div className="form-wrapper">
-                <form className="form-inline" action="/action_page.php">
+                <form className="form-inline" action="#action-submit-form" method="POST">
                     <label for="email">Email:</label>
                     <input type="email" id="email" placeholder="Enter email" name="email"/>
                     <label for="pwd">Password:</label>
