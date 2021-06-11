@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './css/elements.css'
+// import App from './App';
+import Menu from './components/Menu';
+import Form from './items/Form';
 import reportWebVitals from './reportWebVitals';
-
+//<App />
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Welocme to World</h1>
+    <Menu />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
