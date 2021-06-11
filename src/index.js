@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './css/elements.css'
-// import App from './App';
-import Menu from './components/Menu';
-import Form from './items/Form';
+
+// import Layout File Here
+import Layout from './Layout';
+
+
 import reportWebVitals from './reportWebVitals';
 //<App />
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Welocme to World</h1>
-    <Menu />
-    <Form />
+    <Layout />
   </React.StrictMode>,
   document.getElementById('root')
 );
